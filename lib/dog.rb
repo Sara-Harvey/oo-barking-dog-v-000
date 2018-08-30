@@ -17,6 +17,8 @@ class Dog
   end
 end 
 
+@bark = puts "woof!"
+
 fido = Dog.new
 fido.name = "Fido"
 fido.bark = puts "woof!"
