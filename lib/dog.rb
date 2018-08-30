@@ -13,7 +13,7 @@ class Dog
   end
 
   def bark=(new_bark)
-    @bark = new_bark
+    @bark = puts(new_bark)
   end
 end 
 
