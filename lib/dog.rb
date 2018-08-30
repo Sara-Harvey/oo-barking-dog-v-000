@@ -22,9 +22,9 @@ class Dog
   end
 end 
 
-fido = Dog.new
+fido = Dog.new("Fido", "woof!")
 fido.name = "Fido"
-fido.bark = puts "woof!"
+fido.bark = "woof!"
 
 fido.name
 fido.bark 
