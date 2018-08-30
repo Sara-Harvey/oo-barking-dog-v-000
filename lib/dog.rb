@@ -13,13 +13,13 @@ class Dog
   end
 
   def bark=(new_bark)
-    @bark = puts(new_bark)
+    @bark = new_bark
   end
 end 
 
 fido = Dog.new
 fido.name = "Fido"
-fido.bark = puts("woof!")
+fido.bark = puts "woof!"
 
 fido.name
 fido.bark 
